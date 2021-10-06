@@ -8,11 +8,11 @@ Content-Type: application/json
 }
 
 ###
-PATCH http://localhost:3000/places/8
+PATCH http://localhost:3000/places/4
 Content-Type: application/json
 
 {
-  "name": "Capital"
+  "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Z4p0ue6pwj1OubuHFchE9QHaFv%26pid%3DApi&f=1"
 }
 
 ###

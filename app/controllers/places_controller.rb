@@ -25,6 +25,7 @@ class PlacesController < ApplicationController
     place = Place.find(params[:id])
     place.name = params[:name] || place.name
     place.address = params[:address] || place.address
+    place.image_url = params[:image_url] || place.image_url
     if place.save
       render json: place
     else
