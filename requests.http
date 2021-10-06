@@ -1,0 +1,19 @@
+###
+POST http://localhost:3000/places
+Content-Type: application/json
+
+{
+  "name": "Capital",
+  "address": "Washington, D.C."
+}
+
+###
+PATCH http://localhost:3000/places/8
+Content-Type: application/json
+
+{
+  "name": "Capital"
+}
+
+###
+DELETE http://localhost:3000/places/5
